@@ -3,7 +3,7 @@ package school.mjc.stage0.loops.task3;
 public class FibonacciSeries {
     public void printFibonacci(int lastFibonacci) {
         int firstTerm = 0, secondTerm = 1;
-        int whileCounter = 2;
+        int whileCounter = 1;
 
 //        for (int i = 1; i <= n; ++i) {
         while (whileCounter  <= lastFibonacci){
