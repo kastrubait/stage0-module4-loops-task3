@@ -6,7 +6,7 @@ public class FibonacciSeries {
         int whileCounter = 1;
 
 //        for (int i = 1; i <= n; ++i) {
-        while (secondTerm  <= lastFibonacci){
+        while (firstTerm  <= lastFibonacci){
             System.out.println(firstTerm);
             int nextTerm = firstTerm + secondTerm;
             firstTerm = secondTerm;
