@@ -7,7 +7,7 @@ public class FibonacciSeries {
 
 //        for (int i = 1; i <= n; ++i) {
         while (secondTerm  <= lastFibonacci){
-            System.out.print(firstTerm);
+            System.out.println(firstTerm);
             int nextTerm = firstTerm + secondTerm;
             firstTerm = secondTerm;
             secondTerm = nextTerm;
